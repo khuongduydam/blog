@@ -12,7 +12,7 @@ gem 'bootstrap', '~> 4.0.0.alpha3'
 gem 'redcarpet'
 gem 'haml', '~> 4.0.7'
 gem 'devise', '~> 4.1.1'
-
+gem 'better_errors', '~> 2.1', '>= 2.1.1'
 group :development, :test do
 	gem 'pg', '~> 0.18.4'
   gem 'web-console', '~> 2.0'
