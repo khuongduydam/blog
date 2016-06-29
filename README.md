@@ -6,7 +6,7 @@ Submitted by: **DAM KHUONG DUY**
 
 Time spent: **20** hours spent in total
 
-URL: **https://dashboard.heroku.com/apps/secure-wave-62841**
+URL: **https://secure-wave-62841.herokuapp.com/**
 
 ## User Stories
 

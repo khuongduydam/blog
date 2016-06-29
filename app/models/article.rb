@@ -8,4 +8,12 @@ class Article < ActiveRecord::Base
 			errors.add(:body, "can\'t be shorter than title")
 		end
 	end
+
+	def self.search(search)
+		if search
+			self.where('title LIKE ?', '%#{search}%')
+		else
+			self.all
+		end
+	end
 end
