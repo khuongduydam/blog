@@ -9,10 +9,5 @@
   	</p>
   <% end %>
     <%= render @articles %>
-    <% @articles.each do |article|%>
-	  <p>
-	    <%= article.title %>
-	  </p>
-	<% end %>
   <%= link_to 'New Article', new_article_path %>
 </div>

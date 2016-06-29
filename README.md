@@ -4,9 +4,9 @@
 
 Submitted by: **DAM KHUONG DUY**
 
-Time spent: **20** hours spent in total
+Time spent: **30** hours spent in total
 
-URL: **https://secure-wave-62841.herokuapp.com/**
+URL: **https://obscure-reef-73619.herokuapp.com/**
 
 ## User Stories
 
@@ -16,7 +16,7 @@ The following **required** functionality is complete:
 * [x] User can edit an existing post.
 * [x] There is one post that introduces the App Creator with name, picture.
 * [x] User can delete stories, with an alert that asks the user to confirm.
-* [ ] User see a search form on the Posts page.
+* [x] User see a search form on the Posts page.
 * [ ] User can submit a search term to find all posts bywith titles containing the search term.
 
 The following **optional** features are implemented:
