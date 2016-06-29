@@ -10,5 +10,9 @@
   <%= @article.body %>
 </p>
 
+<h2><%= @article.comments.count %> comments</h2>
+<p><%= render @article.comments %></p>
+<p><%= render 'comments/form' %></p>
+
 <%= link_to 'Edit', edit_article_path(@article) %> |
 <%= link_to 'Back', articles_path %>

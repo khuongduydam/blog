@@ -8,5 +8,6 @@ class Article < ActiveRecord::Base
 			errors.add(:body, "can\'t be shorter than title")
 		end
 	end
-
+	belongs_to :user
+	has_many :comments, dependent: :destroy
 end
